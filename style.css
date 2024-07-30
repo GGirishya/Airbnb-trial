@@ -146,5 +146,13 @@ ul.dropdown-menu.show {
 .show {
   display: inline;
 }
+/*Additional css for the card*/
+.card {
+  transition: transform 0.3s ease-in-out;
+}
 
+/* Zoom-in effect on hover */
+.card:hover {
+  transform: scale(1.05); /* Increase the scale factor as needed */
+}
 
