@@ -10,10 +10,14 @@ function filterByCity(targetCity, listingCityArray) {
 
 function filterByPrice(minPrice, maxPrice, listingPriceArray) {
   // Note: Comment out the following line when you start working on this function!
-  const indicies =[];
-
-  
+  const indices =[];  
   // return [...listingPriceArray.keys()]
+  for (let i = 0; i < listingPriceArray.length; i++) {
+    if (listingPriceArray[i] >= minPrice && listingPriceArray[i] <= maxPrice) {
+      indices.push(i);
+    }
+  }
+  return indices;
 }
 
 // LevelUp!
