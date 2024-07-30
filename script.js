@@ -23,5 +23,5 @@ function filterByPrice(minPrice, maxPrice, listingPriceArray) {
 // LevelUp!
 function filterByTypes(targetTypes, listingTypeArray) {
   // Note: Comment out the following line when you attempt the LevelUp!
-  return [...listingTypeArray.keys()]
+  // return [...listingTypeArray.keys()]
 }
